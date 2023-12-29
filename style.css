@@ -1,0 +1,37 @@
+*{ /*quitar margin y padding a todo*/
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.tarjeta-usuario{
+    width: 500px; /*ancho*/
+    border: 2px solid rgb(107, 106, 106);
+    margin: 0 auto;
+}
+
+.tarjeta-azul{
+    height: 80px;
+    background-color: rgb(0, 126, 128);
+}
+
+.usuario{
+    height: 150px; /*alto*/
+    padding: 15px;
+    display: flex; 
+    flex-direction: column; /*que este todo en una misma columna*/
+    justify-content: space-evenly; 
+}
+
+.imagen-de-usuario{
+    width: 60px;
+    border: 3px solid lightgray;
+    border-radius: 50% /*redondear borde*/;
+    position: relative;
+    top: 45px; /*acomodar arriba y abajo*/
+    left: 25px; /*mover a la derecha*/
+}
+
+.icono{
+    width: 10px;
+}
